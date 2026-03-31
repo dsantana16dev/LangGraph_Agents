@@ -203,7 +203,26 @@ Este projeto demonstra como construir um agente que:
 Tudo de forma automatizada usando IA.
 
 ---
-
+![alt text](image.png)
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+        __start__([<p>__start__</p>]):::first
+        generate(generate)
+        reflect(reflect)
+        __end__([<p>__end__</p>]):::last
+        __start__ --> generate;
+        generate -.-> __end__;
+        generate -.-> reflect;
+        reflect --> generate;
+        classDef default fill:#f2f0ff,line-height:1.2
+        classDef first fill-opacity:0
+        classDef last fill:#bfb6fc
+https://mermaid.live/edit#pako:eNp1Ud1ugjAUfpXm7EYTYMiPuGq8mY-wq42FVDgFklJIKduc8d1XGKKJ2pD0nJzvr4cjpHWGQMG27VimteRlTmNJCBf1d1owpYeOkLRTX0iJKCUyFcsBnivWFORtt_6H9CdJWm1ISTL72DTbqds8N9vPOaWUl6rVF3iOEhXTODsX88tMIReY6tl4z69NUGaTxVBPBoJd608BiG1vJ7f1bQBiOwYwij2cj1HWNyEfyacmTrtDTjLkrBOa8FII-sQ97nJu9cu0CyzzQtOF492hDesaSHbdsLTUB-regfWPHqX3fL_kaY8BC3JVZkC16tCCClXF-haO_TQGXWCFMVBTjuliiOXJ0Bom3-u6OjNV3eUFUM5Ea7quycwbdyUzf_8CMXtD9Vp3UgMNBwWgR_gB6keBs3RX7ssiila-77mBBQegQeQEZhSF4dLzzRecLPgdPF1nFYWnP7Qxy8s
 ## 👨‍💻 Autor
 
 Projeto de estudo com foco em agentes de IA e automação inteligente.
+Daniel Santana
