@@ -1,0 +1,21 @@
+[project]
+name = "reflection"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "DANIEL SANTANA",email = "121810818+dsantana16dev@users.noreply.github.com"}
+]
+requires-python = ">=3.14,<4.0.0"
+dependencies = [
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "black (>=26.3.1,<27.0.0)",
+    "isort (>=8.0.1,<9.0.0)",
+    "langchain (>=1.2.14,<2.0.0)",
+    "langchain-openai (>=1.1.12,<2.0.0)",
+    "langgraph (>=1.1.4,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
