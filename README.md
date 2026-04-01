@@ -142,7 +142,7 @@ OPENAI_API_KEY=your_key_here
 A ideia é evoluir para agentes mais avançados:
 
 * ✅ 01 - Reflection Agent
-* 🔜 02 - Tool Calling Agent
+* ✅ 02 - Tool Calling Agent
 * 🔜 03 - Multi-Agent Collaboration
 * 🔜 04 - RAG Agent (Retrieval-Augmented Generation)
 * 🔜 05 - Autonomous Agent
